@@ -1,6 +1,143 @@
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif, helvetica;
+  line-height: 1.5; 
+  color: #3c5063;
+}
 /**********************
 Jumbotron
 ***********************/
-.jumbotron img {
-	max-width: 18%
+.jumbotron {
+	height: 500px;
+	background-color: #830004;
 }
+.jumbotron img {
+	max-width: 50px;
+	height: 50px;
+}
+.jumbotron header {
+	margin-top: 150px;
+	text-align: center;
+}
+.jumbotron h1 {
+	color: #fff;
+	font-size: 3em;
+	font-family: 'Open Sans','Roboto', sans-serif, helvetica;
+}
+p, ul {
+	font-family: 'Open Sans','Roboto', sans-serif, helvetica;
+}
+/**********************
+Shared
+***********************/
+.services, .about {
+	padding-bottom: 80px;
+}
+/**********************
+Typography
+***********************/
+.section-headline {
+	font-size: 1.2em;
+	text-align: center;
+	padding: 20px
+}
+.verticalLine {
+	border-right: 1px solid #d7d3d5;
+    height: 350px;
+    position: absolute;
+    top: -14.40185404562%;
+    left: 0px;
+    bottom: 0;
+}
+/**********************
+Services
+***********************/
+.services {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.services-image .fa {
+	font-size: 2em;
+	color: #547000;
+}
+.services .section-headline h2 {	
+	padding-bottom: 50px;
+}
+.services h3 {
+	font-size: 1.3125em;
+}
+.services-text-body p {
+	font-size:1.125;
+}
+/**********************
+About
+***********************/
+.about {
+	background-color: #f9fbfb;
+}
+.about p {
+	max-width: 70%;
+	margin: auto;
+	font-size: 1.125em;
+	text-align: center;
+}
+/**********************
+ Mission, Vision & Core Values
+***********************/
+.mv {
+	margin-top: 80px;
+}
+.mv header h2, .mv .mv-text p {
+	text-align: center;
+}
+.mv .mission {
+	text-align: center;
+	margin-top: 70px;
+}
+.mv .col-sm-6:nth-child(1) {
+	box-shadow: -1px 1px 5px rgba(0,0,0,0.25);
+	min-height: 500px;
+	padding: 20px 10px;
+	background-color: #830004;
+	color: #fff;
+	z-index:1;
+	position: relative;
+	border-radius: 2px;
+}
+.mv .col-sm-6:nth-child(2) {
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+	min-height: 500px;
+	padding: 20px 10px;
+	background-color: #fff;
+	color: #3a4a4d;
+	z-index: 1;
+	position: relative;
+	border-radius: 2px;
+}
+.core-values-text ul li{
+  padding: 10px 0;
+	font-size: 1.125em;
+	list-style-type: ;
+	border-bottom: 1px dashed #d7d3d5;
+	z-index: 1000;
+	padding: 15px 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
