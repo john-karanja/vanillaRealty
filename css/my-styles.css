@@ -10,9 +10,16 @@ Jumbotron
 	height: 500px;
 	background-color: #830004;
 }
+.jumbotron {
+    background: linear-gradient(rgba(60, 62, 71, 0.4), rgba(60, 62, 71, 0.4)), url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 0;
+}
 .jumbotron img {
-	max-width: 50px;
-	height: 50px;
+	max-width: 150px;
+	height: 150px;
 }
 .jumbotron header {
 	margin-top: 150px;
