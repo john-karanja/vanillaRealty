@@ -206,7 +206,23 @@ Contacts
     box-shadow: 0 0 40px rgba(0, 0, 0,.3);
 }
 
-
+.property-sales-image {
+	width: 50%;
+	height: 350px;
+	background: url(../images/furniture.jpeg);
+	background-size: cover;
+	float: left;
+	clear: left;
+}
+.property-sales-text {
+	background-color: rgba(127,20,28,1);
+	color: #ffffff;
+	min-height: 350px;
+	width: 50%;
+	float: left;
+	padding: 10px
+	
+}
 
 
 
