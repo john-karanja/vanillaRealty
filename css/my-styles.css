@@ -4,31 +4,64 @@ body {
   color: #3c5063;
 }
 /**********************
+Navbar
+***********************/
+.navbar {
+	border-radius: 0px;
+	height: 70px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+}
+.navbar-brand img {
+	max-width: 150px;
+	height: 100px;
+	margin-top: -27px;
+}
+/**********************
 Jumbotron
 ***********************/
 .jumbotron {
 	height: 500px;
 	background-color: #830004;
+	padding: 0;
 }
 .jumbotron {
-    background: linear-gradient(rgba(60, 62, 71, 0.4), rgba(60, 62, 71, 0.4)), url(../images/hero.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.18), rgba(0,0,0, 0)), url(../images/furniture.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
     margin-bottom: 0;
 }
-.jumbotron img {
-	max-width: 150px;
-	height: 150px;
-}
+
 .jumbotron header {
 	margin-top: 150px;
 	text-align: center;
 }
 .jumbotron h1 {
 	color: #fff;
-	font-size: 3em;
+	font-size: 4.4em;
 	font-family: 'Open Sans','Roboto', sans-serif, helvetica;
+	font-weight: 400;
+}
+.jumbotron p {
+	display: inline-block;
+	margin: auto;
+	background-color: rgba(127,20,28,0.8);
+	font-size: 1.35em;
+	color: #ffffff;
+	padding: 8px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.jumbotron header p.header-phone  {
+	display: block;
+	max-width: 20%;
+	margin: auto;
+	background-color: rgba(127,20,28,1);
+	margin-top: 50px;
+	font-size: 1.7em;
+	font-weight: 400;
+	f
 }
 p, ul {
 	font-family: 'Open Sans','Roboto', sans-serif, helvetica;
@@ -36,8 +69,14 @@ p, ul {
 /**********************
 Shared
 ***********************/
-.services, .about {
+.services, .about, .contacts {
 	padding-bottom: 80px;
+}
+.headline-border-bottom hr {
+	border-color: #830;
+	border-width: 2px;
+	max-width: 10%;
+	margin-top: 1px;
 }
 /**********************
 Typography
@@ -63,17 +102,32 @@ Services
 	margin-bottom: 60px;
 }
 .services-image .fa {
-	font-size: 2em;
-	color: #547000;
+	font-size: 4em;
+	color: #830;
 }
 .services .section-headline h2 {	
 	padding-bottom: 50px;
 }
 .services h3 {
 	font-size: 1.3125em;
+	margin: 30px 0;
 }
 .services-text-body p {
 	font-size:1.125;
+}
+.services-card {
+    min-height: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 43px 30px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+	position: relative;
+}
+.services-border-bottom hr {
+	border-color: #830;
+	border-width: 2px;
+	margin-top: 40px;
+	max-width: 30%;
 }
 /**********************
 About
@@ -82,15 +136,16 @@ About
 	background-color: #f9fbfb;
 }
 .about p {
-	max-width: 70%;
+	max-width: 85%;
 	margin: auto;
 	font-size: 1.125em;
 	text-align: center;
+	font-weight: 400;
 }
 /**********************
  Mission, Vision & Core Values
 ***********************/
-.mv {
+/* .mv {
 	margin-top: 80px;
 }
 .mv header h2, .mv .mv-text p {
@@ -127,10 +182,29 @@ About
 	border-bottom: 1px dashed #d7d3d5;
 	z-index: 1000;
 	padding: 15px 0; 
+} */
+/**********************
+Contacts
+***********************/
+.contacts {
+	background-color: rgb(127,20,28);
+	z-index: 0;
 }
-
-
-
+.contacts header h2 {
+	color: #fff;
+}
+.contacts-card ul {
+	list-style-type: none;
+	padding: 0;
+}
+.contacts-card {
+	min-height: 200px;
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 43px 30px 20px;
+	 z-index: 1000;
+    box-shadow: 0 0 40px rgba(0, 0, 0,.3);
+}
 
 
 
