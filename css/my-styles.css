@@ -63,19 +63,28 @@ Jumbotron
 	font-weight: 400;
 	f
 }
+.more-arrow {
+	text-align: center;
+}
+.more-arrow .fa {
+	color: #ffffff;
+	font-size: 4em;
+	position: relative;
+	top: 180px; 
+}
 p, ul {
 	font-family: 'Open Sans','Roboto', sans-serif, helvetica;
 }
 /**********************
 Shared
 ***********************/
-.services, .about, .contacts {
+.services, .about, .contacts, .test {
 	padding-bottom: 80px;
 }
 .headline-border-bottom hr {
 	border-color: #830;
 	border-width: 2px;
-	max-width: 10%;
+	max-width: 5%;
 	margin-top: 1px;
 }
 /**********************
@@ -187,44 +196,72 @@ About
 Contacts
 ***********************/
 .contacts {
-	background-color: rgb(127,20,28);
+	background-color: #f9fbfb;;
 	z-index: 0;
 }
-.contacts header h2 {
-	color: #fff;
+.contacts header h3 {
+	font-weight: 400;
+}
+.contacts p {
+	font-weight: 300;
 }
 .contacts-card ul {
 	list-style-type: none;
 	padding: 0;
 }
 .contacts-card {
+	border-left: 1px solid rgba(127,20,28,1);
 	min-height: 200px;
     max-width: 100%;
     background-color: #ffffff;
-    padding: 43px 30px 20px;
+    padding: 30px 20px;
 	 z-index: 1000;
-    box-shadow: 0 0 40px rgba(0, 0, 0,.3);
+	 box-shadow: 0 0 1px rgba(0,0,0,0.3);
+	 border-radius: 1px;
 }
+/**********************
+Services
+***********************/
 
-.property-sales-image {
+.property-sales-image, .property-letting-image {
 	width: 50%;
-	height: 350px;
-	background: url(../images/furniture.jpeg);
+	height: 450px;
+	background: url(../images/office.jpeg);
+	background-position: 35% 100%;
+	height: 450px;
 	background-size: cover;
 	float: left;
 	clear: left;
 }
+.property-letting-image {
+	background: url(../images/sales.jpeg);
+	background-size: cover;
+	background-position: 75% 100%;
+}
+.property-management-image {
+	width: 50%;
+	height: 450px;
+	background: url(../images/joy.jpg);
+	background-size: cover;
+	float: left;
+	clear: left;
+}
+.test .row:nth-child(2) {
+	margin-top: 20px;
+}
 .property-sales-text {
 	background-color: rgba(127,20,28,1);
 	color: #ffffff;
-	min-height: 350px;
+	min-height: 450px;
 	width: 50%;
 	float: left;
 	padding: 10px
-	
 }
-
-
+.property-sales-text p {
+	font-size: 1.1em;
+	line-height: 1.8;
+	margin-top: 20px;
+}
 
 
 
